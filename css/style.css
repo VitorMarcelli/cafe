@@ -54,7 +54,7 @@ body{
     font-family: 'Caprasimo', cursive;
     font-weight: 200;
     color: var(--cor-cinco);
-    transition: .5s;
+    transition: .1s;
 
 
 }
@@ -77,18 +77,29 @@ body{
     display: inline-block;
     color: var(--cor-cinco);
     justify-content: center;
-    margin-right: 15px;
-    transition: .5s;
+    margin-right: 20px;
+    
     background: transparent;
     align-items: center;
+    border: transparent;
+    transform: rotate(45deg);
 }
 
 .social__media a:hover{
     color: var(--cor-quadrupla);
-    
+    border: 2px solid var(--cor-quadrupla);
 }
 
 .social__media a i {
     font-size: 30px;
+    transform: rotate(-45deg);
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    padding: 50px 8% 0;
 }
 
