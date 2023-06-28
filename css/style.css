@@ -28,10 +28,11 @@ body{
     text-align: center;
     justify-content: space-around;
     padding: 30px 8%;
+    background: transparent;
 }
 
 .logo{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     text-decoration: none;
     color: black;
@@ -48,7 +49,7 @@ body{
 }
 
 .navbar a{
-    margin-right: 20px;
+    margin: 0 20px;
     text-decoration: none;
     font-family: 'Caprasimo', cursive;
     font-weight: 200;
