@@ -35,7 +35,7 @@ body{
     font-size: 2rem;
     font-weight: 400;
     text-decoration: none;
-    color: black;
+    
     font-family: 'Caprasimo', cursive;
     color: var(--cor-quadrupla);
     
@@ -59,7 +59,8 @@ body{
 
 }
 
-.navbar a:hover{
+.navbar a:hover,
+.navbar a.active{
     color: var(--cor-quadrupla);
     border-bottom: 3px solid var(--cor-quadrupla);
 }
@@ -73,14 +74,21 @@ body{
 }
 
 .social__media a{
+    display: inline-block;
     color: var(--cor-cinco);
-    font-size: 30px;
+    justify-content: center;
     margin-right: 15px;
     transition: .5s;
+    background: transparent;
+    align-items: center;
 }
 
 .social__media a:hover{
     color: var(--cor-quadrupla);
+    
+}
 
+.social__media a i {
+    font-size: 30px;
 }
 
